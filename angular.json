@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/minireset.css/minireset.css",
+              "src/styles.css",
+              "node_modules/igniteui-angular/styles/igniteui-angular.css"
             ],
             "scripts": []
           },
@@ -88,7 +90,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/igniteui-angular/styles/igniteui-angular.css"
             ],
             "scripts": []
           }
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "contact-management-app"
+    }
+  },
+  "defaultProject": "contact-management-app",
+  "cli": {
+    "analytics": "1289b4cc-8ad1-459e-b763-c77caebc2817"
+  }
 }
